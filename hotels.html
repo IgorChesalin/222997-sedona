@@ -8,7 +8,7 @@
 
 <body>
   <header class="main-header">
-    <div class="container">
+    <section class="container">
       <nav class="main-navigation">
         <ul>
           <li>
@@ -25,106 +25,117 @@
           </li>
         </ul>
       </nav>
-    </div>
-    <div class="index-logo">
-      <img src="http://placehold.it/50x50" alt="логотип">
+    </section>
+    <div class="logo">
+      <a href="/index.html"></a><img src="http://placehold.it/50x50" alt="логотип">
+      <a>
     </div>
   </header>
-  <main class="container">
-    <div class="main-img">
-      <img src="http://placehold.it/500x100" alt="фотография седоны 2" </div>
-      <div class="1-list">
-        <h3>ИНФРАСТРУКТУРА:</h3>
-        <ul>
-          <img src="http://placehold.it/25x25" alt="маркер">
-          <li>БАССЕЙН</li>
-          <img src="http://placehold.it/25x25" alt="маркер">
-          <li>ПАРКОВКА</li>
-          <img src="http://placehold.it/25x25" alt="маркер">
-          <li>WI-FI</li>
-        </ul>
+  <main class="sort">
+    <div class="sort-item">
+      <h2>ИНФРАСТРУКТУРА:</h2>
+      <ul>
+        <li>
+          <label><input type="checkbox" name="pool">БАССЕЙН</label>
+        </li>
+        <li>
+          <label><input type="checkbox" name="parking">ПАРКОВКА</label>
+        </li>
+        <li>
+          <label><input type="checkbox" name="WI-FI">WI-FI</label>
+        </li>
+      </ul>
+    </div>
+    <div class="sort-item">
+      <h2>ТИП ЖИЛЬЯ:</h2>
+      <ul>
+        <li>
+          <label><input type="checkbox" name="inn">ГОСТИНИЦА</label>
+        </li>
+        <li>
+          <label><input type="checkbox" name="hotel">ОТЕЛЬ</label>
+        </li>
+        <li>
+          <label><input type="checkbox" name="apartments">АПАРТАМЕНТЫ</label>
+        </li>
+      </ul>
+    </div>
+    <div class="filter-price">
+      <h2>Стоимость в сутки:</h2>
+      <input type="range" name="" value="">
+      <div class="range">
+
       </div>
-      <div class="2-list">
-        <h3>ТИП ЖИЛЬЯ:</h3>
-        <ul>
-          <img src="http://placehold.it/25x25" alt="маркер">
-          <li>ГОСТИНИЦА</li>
-          <img src="http://placehold.it/25x25" alt="маркер">
-          <li>ОТЕЛЬ</li>
-          <img src="http://placehold.it/25x25" alt="маркер">
-          <li>АПАРТАМЕНТЫ</li>
-        </ul>
+      <div class="filter-move">
+        <span>Ползунок тут</span>
       </div>
-      <div class="filter-price">
-        <h3>Стоимость в сутки:</h3>
-        <table border="2">
-          <td>0</td>
-          <td>3000</td>
-        </table>
-        <div class="filter-move">
-          <p>Ползунок тут</p>
+      <input type="submit" name="show-price" value="Показать">
+    </div>
+    <div class="results">
+      <div class="top-line">
+        <h3>НАЙДЕНО: 3</h3>
+        <div class="results-navigation">
+          <ul>
+            <li>
+              <a href="#">ПО ЦЕНЕ</a>
+            </li>
+            <li>
+              <a href="#">ПО ТИПУ</a>
+            </li>
+            <li>
+              <a href="#">ПО РЕЙТИНГУ</a>
+            </li>
+          </ul>
         </div>
-        <input type="submit" name="show-price" value="Показать">
-      </div>
-      <div class="results">
-        <div class="top-line">
-          <h2>НАЙДЕНО: 3</h2>
-          <nav class="results-navigation">
-            <ul>
-              <li>
-                <a href="#">ПО ЦЕНЕ</a>
-              </li>
-              <li>
-                <a href="#">ПО ТИПУ</a>
-              </li>
-              <li>
-                <a href="#">ПО РЕЙТИНГУ</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="results-line-1">
-          <div class="left-block">
-            <img src="http://placehold.it/50x50" alt="Hotel preview">
-            <h2>AMARA RESORT AND SPA</h2>
-            <p class="hotel-info">ГОСТИНИЦА ОТ 3500 Р.</p>
+        <section class="results-line">
+          <article class="hotel">
+            <div class="hotel-preview">
+              <img src="http://placehold.it/50x50" alt="Hotel preview">
+            </div>
+            <h2><a href="#"></a>AMARA RESORT AND SPA</h2>
+            <span class="hotel-info">ГОСТИНИЦА</span><span>ОТ 3500 Р.</span>
             <a href="#">ПОДРОБНЕЕ</a>
             <a href="#">ЗАБРОНИРОВАТЬ</a>
-          </div>
-          <div class="rating-line-1">
-            <p>Звезды и рейтинг</p>
-          </div>
-        </div>
-        <div class="results-line-2">
-          <div class="left-block">
-            <img src="http://placehold.it/50x50" alt="Hotel preview">
-            <h2>DESERT QUAIL INN</h2>
-            <p class="hotel-info">МОТЕЛЬ ОТ 2000 Р.</p>
-            <a href="#">ПОДРОБНЕЕ</a>
-            <a href="#">ЗАБРОНИРОВАТЬ</a>
-          </div>
-          <div class="rating-line-2">
-            <p>Звезды и рейтинг</p>
-          </div>
-        </div>
-        <div class="results-line-3">
-          <div class="left-block">
-            <img src="http://placehold.it/50x50" alt="Hotel preview">
-            <h2>VILLAS AT POCO DIABLO</h2>
-            <p class="hotel-info">АПАРТАМЕНТЫ ОТ 4000 Р.</p>
-            <a href="#">ПОДРОБНЕЕ</a>
-            <a href="#">ЗАБРОНИРОВАТЬ</a>
-          </div>
-          <div class="rating-line-2">
-            <p>Звезды и рейтинг</p>
-          </div>
-        </div>
       </div>
+      <div class="rating-line-1">
+        <span>Звезды и рейтинг</span>
+      </div>
+      </article>
+      </section>
+      <section class="results-line">
+        <article class="hotel">
+          <div class="hotel-preview">
+            <img src="http://placehold.it/50x50" alt="Hotel preview">
+          </div>
+          <h2><a href="#"></a>DESERT QUAIL INN</h2>
+          <span class="hotel-info">МОТЕЛЬ</span><span> ОТ 2000 Р.</span>
+          <a href="#">ПОДРОБНЕЕ</a>
+          <a href="#">ЗАБРОНИРОВАТЬ</a>
+        </article>
+        <div class="rating-line-2">
+          <span>Звезды и рейтинг</span>
+        </div>
+      </section>
+      <section class="results-line">
+        <article class="hotel">
+          <div class="hotel-preview">
+            <img src="http://placehold.it/50x50" alt="Hotel preview">
+          </div>
+          <h2><a href="#"></a>VILLAS AT POCO DIABLO</h2>
+          <span class="hotel-info">АПАРТАМЕНТЫ</span><span>ОТ 4000 Р.</span>
+          <a href="#">ПОДРОБНЕЕ</a>
+          <a href="#">ЗАБРОНИРОВАТЬ</a>
+        </article>
+        <div class="rating-line-2">
+          <span>Звезды и рейтинг</span>
+        </div>
+      </section>
+    </div>
   </main>
   <footer class="main-footer">
     <div class="container">
       <section class="footer-hashtag">
-        <p>#VISITSEDONA</p>
+        <a href="#">#VISITSEDONA</a>
       </section>
       <section class="footer-social">
         <a class="social-btn social-btn-tw" href="#">Твиттер</a>
