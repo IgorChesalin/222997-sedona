@@ -1,31 +1,81 @@
-.body {
+/*центровщик*/
+.container {
+  width: 1200px;
   margin: 0 auto;
 }
+/*version control 19-29*/
+/*вписываем сверх 1200пх*/
+img {
+  max-width:100%;
+  height:auto;
+}
+/*------------------------------------------*/
+
+/*Шапка меню*/
+nav {
+  background-color: grey;
+}
+
+ul {
+  padding-left: 0;
+  padding-top: 20px;
+  font-size: 0px;
+}
+
+li {
+  display: inline-block;
+  width: 240px;
+  text-align: center;
+  font-size: 20px;
+}
+
+li:nth-child(2) {
+  margin-right: 240px;
+}
+
+.logo {
+  width: 100%;
+  padding-left: 531px;
+}
+
+
 
 /* ЖИЛЬЕ ЕДА СУВЕНИРЫ*/
 .advantages {
-  width: 1200px;
-  min-height: 330px;
+  width: 100%;
   font-size: 0px;
-  border: 1px dotted red;
 }
 
 .advantages-item {
   display: inline-block;
   width: 400px;
-  height: 270px;
   text-align: center;
   font-size: 12px;
   padding-top: 60px;
+}
+
+/*интро текст*/
+
+.intro-text {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
 
 }
 
+
 /*МОСТ ДЬЯВОЛА */
 .features {
-  width: 1200px;
-  height: 256px;
+  width: 100%;
   font-size: 0px;
-  border: 1px dotted red;
+}
+
+.features-blue {
+  background-color: #81b3d2;
+}
+
+.features-grey {
+  background-color: #eeeeee;
 }
 
 .features-image {
@@ -42,21 +92,19 @@
 }
 
 .search {
-  width: 1200px;
-  height: 291px;
+  width: 100%;
   text-align: center;
-  border: 1px dotted red;
-
 }
 
 .map {
-  width: 1200px;
-  border: 1px dotted red;
-  }
+  width: 100%;
+    }
 
 .main-footer {
+  width: 100%;
+}
+
+.footer {
   display: inline-block;
-  width: 1200px;
-  height: 120px;
   border: 1px dotted red;
 }
