@@ -7,7 +7,7 @@
   width: 1200px;
   margin: 0 auto;
 }
-/*version control 19-29*/
+
 /*вписываем сверх 1200пх*/
 img {
   max-width:100%;
@@ -16,26 +16,22 @@ img {
 /*------------------------------------------*/
 
 /*Шапка меню*/
-nav {
-  /*background-color: grey;*/
-}
 
-ul {
+.main-navigation ul {
   padding-left: 0;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 0px;
-
 }
 
-li {
+.main-navigation li {
   display: inline-block;
   width: 240px;
   text-align: center;
   font-size: 20px;
 }
 
-li:nth-child(2) {
+.main-navigation li:nth-child(2) {
   margin-right: 240px;
 }
 
@@ -131,18 +127,10 @@ li:nth-child(2) {
   display: inline-block;
   vertical-align: middle;
   font-size: 12px;
-
 }
-
-
-}
-
 
 /*---------HOTELS----------*/
 
-.sort-form {
-
-}
 
 .sort-item {
   display: inline-block;
@@ -163,8 +151,8 @@ li:nth-child(2) {
 /* НАЙДЕНО----  */
 
 .results-navigation {
-  color: green;
-  border: 1px dotted green;
+  background-color: grey;
+  font-size: 0px;
 }
 
 .search-results {
@@ -172,30 +160,27 @@ li:nth-child(2) {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  border: 1px dotted red;
+  font-size: 12px;
 }
-
-
 
 .results-navigation-type {
   width: 860px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  border: 3px dotted yellow;
+  font-size: 12px;
 }
 
-
 .results-navigation-side {
-  width: 110px;
+  width: 125px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  border: 1px dotted red;
-}
+  font-size: 12px;
+  }
 
 .up-down {
-  margin-right: 0px;
+  font-size: 12px;
 }
 
 /*----- список отелей -----*/
