@@ -137,6 +137,7 @@ img {
   width: 250px;
   text-align: center;
   vertical-align: top;
+  font-size: 12px;
 }
 
 .filter-price {
@@ -145,6 +146,7 @@ img {
   margin-left: 230px;
   text-align: center;
   vertical-align: middle;
+  font-size: 12px;
 }
 
 
@@ -153,6 +155,9 @@ img {
 .results-navigation {
   background-color: grey;
   font-size: 0px;
+  padding-top: 30px;
+  padding-bottom: 33px;
+
 }
 
 .search-results {
@@ -188,6 +193,8 @@ img {
 .hotel {
   width: 100%;
   font-size: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .hotel-preview,
@@ -195,25 +202,21 @@ img {
 .rating-line {
     display: inline-block;
     font-size: 12px;
-    padding-top: 30px;
-    padding-left: 30px;
+    vertical-align: middle;
+
 }
 
 .hotel-preview {
   width: 220px;
   text-align: center;
-  vertical-align: middle;
 }
 
 .hotel-description {
   width: 780px;
   text-align: left;
-  vertical-align: middle;
 }
 
 .rating-line {
   width: 200px;
-  text-align: right;;
-  vertical-align: middle;
-
+  text-align: right;
 }
