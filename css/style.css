@@ -56,6 +56,7 @@ li:nth-child(2) {
   text-align: center;
   font-size: 12px;
   padding-top: 60px;
+  vertical-align: middle;
 }
 
 /*интро текст*/
@@ -93,6 +94,7 @@ li:nth-child(2) {
   width: 400px;
   text-align: center;
   font-size: 12px;
+  vertical-align: middle;
 }
 
 .search {
@@ -106,9 +108,58 @@ li:nth-child(2) {
 
 .main-footer {
   width: 100%;
+  text-align: center;
+  font-size: 0px;
 }
 
-.footer {
+.footer-hashtag,
+.footer-social,
+.footer-copyright  {
+  width: 400px;
   display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+
+}
+
+
+}
+
+
+/*---------HOTELS----------*/
+
+.sort-form {
+
+}
+
+.sort-item {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.filter-price {
+  display: inline-block;
+  width: 460px;
+  margin-left: 230px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+/* НАЙДЕНО----  */
+
+.top-line {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  color: red;
   border: 1px dotted red;
+
+}
+
+.results-navigation {
+  color: green;
+  border: 1px dotted green;
 }
