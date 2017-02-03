@@ -130,6 +130,13 @@ img {
 }
 
 /*---------HOTELS----------*/
+/*<img src="img/background_photo.jpg" width="1200" height="773" alt="фотография седоны 1">*/
+
+.intro-image {
+  width: 1200px;
+  height: 500px;
+  background-image: url("../img/background_photo.jpg");
+}
 
 .sort-form {
     background-image: url("../img/background_hotels.jpg");
