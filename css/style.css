@@ -13,6 +13,11 @@ img {
   max-width:100%;
   height:auto;
 }
+
+.body {
+  font-family: "PT Sans";
+}
+
 /*------------------------------------------*/
 
 /*Шапка меню*/
@@ -28,7 +33,10 @@ img {
   display: inline-block;
   width: 240px;
   text-align: center;
-  font-size: 20px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .main-navigation li:nth-child(2) {
@@ -58,6 +66,20 @@ img {
   vertical-align: middle;
 }
 
+.advantages-item h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.advantages-item p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
 /*интро текст*/
 
 .intro-text {
@@ -66,7 +88,18 @@ img {
   text-align: center;
   padding-top: 60px;
   padding-bottom: 100px;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+}
 
+.intro-text h3 {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 26px;
+  color: #333333;
+  text-transform: uppercase;
 }
 
 
@@ -98,14 +131,66 @@ img {
   vertical-align: middle;
   padding-top: 50px;
   padding-bottom: 60px;
-
 }
+
+.features-blue h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.features-blue span,
+.features-blue p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.features-grey h2 {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.features-grey span,
+.features-grey p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
 
 .search {
   width: 100%;
   text-align: center;
   padding-top: 55px;
   padding-bottom: 50px;
+
+}
+
+.search h3 {
+  font-size: 30px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #000000
+}
+
+.search p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.search a {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: brown;
 }
 
 .map {
@@ -128,6 +213,21 @@ img {
   vertical-align: middle;
   font-size: 12px;
 }
+
+.footer-hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+}
+
+
 
 /*---------HOTELS----------*/
 /*<img src="img/background_photo.jpg" width="1200" height="773" alt="фотография седоны 1">*/
