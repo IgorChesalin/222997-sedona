@@ -63,10 +63,29 @@ body {
 }
 
 .logo {
-  width: 100%;
-  padding-left: 531px;
   position: absolute;
   top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.intro-image {
+  display: block;
+  width: 1200px;
+  height: 508px;
+  background-image: url("../img/background_photo.jpg");
+  background-position: 0px -55px;
+}
+
+.img-main_text {
+  position: relative;
+  margin-left: 371px;
+  top: 75px;
+}
+
+.img-mask {
+  position: relative;
+  top: 95px;
 }
 
 
@@ -108,6 +127,9 @@ body {
   text-align: center;
   padding-top: 60px;
   padding-bottom: 100px;
+}
+
+.intro-text h2 {
   font-size: 21px;
   line-height: 26px;
   color: #000000;
@@ -146,7 +168,6 @@ body {
   display: inline-block;
   width: 400px;
   text-align: center;
-  font-size: 12px;
   vertical-align: middle;
   padding-top: 50px;
   padding-bottom: 60px;
@@ -262,19 +283,7 @@ body {
 /*---------HOTELS----------*/
 /*<img src="img/background_photo.jpg" width="1200" height="773" alt="фотография седоны 1">*/
 
-.intro-image {
-  display: block;
-  width: 1200px;
-  height: 508px;
-  background-image: url("../img/background_photo.jpg");
-  background-position: 0px -55px;
-}
 
-.img-main_text {
-  position: relative;
-  margin-left: 371px;
-  top: 75px;
-}
 
 .sort-form {
     background-image: url("../img/background_hotels.jpg");
