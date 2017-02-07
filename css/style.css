@@ -156,6 +156,9 @@ body {
 
 .features-grey {
   background-color: #eeeeee;
+  vertical-align: middle;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .features-image {
@@ -168,9 +171,12 @@ body {
   display: inline-block;
   width: 400px;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: top;
+
+}
+
+.features-blue .features-item {
   padding-top: 50px;
-  padding-bottom: 60px;
 }
 
 .features-blue h2 {
@@ -205,8 +211,6 @@ body {
   width: 100%;
   text-align: center;
   padding-top: 55px;
-  padding-bottom: 50px;
-
 }
 
 .search h3 {
@@ -224,6 +228,11 @@ body {
 }
 
 .search a {
+  display: inline-block;
+  margin: 0px;
+  width: 568px;
+  padding: 35px 0px;
+
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
@@ -232,16 +241,25 @@ body {
   background-color: #766357;
 }
 
+
+
 .map {
-  width: 100%;
-    }
+  display: block;
+  width: 1200px;
+}
 
 .main-footer {
-  width: 100%;
+  display: block;
+  width: 1200px;
   text-align: center;
   font-size: 0px;
   padding-top: 36px;
   padding-bottom: 36px;
+  position: relative;
+  bottom: 100px;
+  background-color: white;
+  opacity: 0.9;
+
 }
 
 .footer-hashtag,
