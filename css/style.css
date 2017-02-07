@@ -39,8 +39,8 @@ body {
 
 .main-navigation ul {
   padding-left: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   font-size: 0px;
 }
 
@@ -51,11 +51,11 @@ body {
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
-  color: #000000;
-
 }
+
 .main-navigation a {
   text-decoration: none;
+  color: #000000;
 }
 
 .main-navigation li:nth-child(2) {
@@ -65,6 +65,8 @@ body {
 .logo {
   width: 100%;
   padding-left: 531px;
+  position: absolute;
+  top: 0px;
 }
 
 
@@ -261,9 +263,17 @@ body {
 /*<img src="img/background_photo.jpg" width="1200" height="773" alt="фотография седоны 1">*/
 
 .intro-image {
+  display: block;
   width: 1200px;
-  height: 500px;
+  height: 508px;
   background-image: url("../img/background_photo.jpg");
+  background-position: 0px -55px;
+}
+
+.img-main_text {
+  position: relative;
+  margin-left: 371px;
+  top: 75px;
 }
 
 .sort-form {
