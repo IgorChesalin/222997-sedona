@@ -282,8 +282,32 @@ body {
   text-decoration: none;
 }
 
+
 .footer-social a {
   text-decoration: none;
+
+
+}
+
+.social-btn-tw {
+  display: inline-block;
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.social-btn-fb {
+  display: inline-block;
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.social-btn-yt {
+  display: inline-block;
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
 }
 
 .footer-copyright {
@@ -295,6 +319,7 @@ body {
 .footer-copyright a {
   text-decoration: none;
 }
+
 
 
 
