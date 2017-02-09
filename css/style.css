@@ -255,11 +255,13 @@ body {
   font-size: 0px;
   padding-top: 36px;
   padding-bottom: 36px;
-  position: relative;
-  bottom: 100px;
-  background-color: white;
-  opacity: 0.9;
+}
 
+.index-footer {
+position: relative;
+bottom: 100px;
+background-color: white;
+opacity: 0.9;
 }
 
 .footer-hashtag,
@@ -430,11 +432,17 @@ body {
   font-size: 0px;
   padding-top: 30px;
   padding-bottom: 30px;
+  border-top: 1px solid #666666;
 }
 
 .rating-line img {
+  display: inline-block;
+  margin-left: 3px;
+}
 
-
+.rating-line span {
+  display: inline-block;
+  margin-top: 50px;
 }
 
 .hotel-preview,
@@ -442,7 +450,7 @@ body {
 .rating-line {
     display: inline-block;
     font-size: 0px;
-    vertical-align: top;
+/*    vertical-align: top;*/
 }
 
 .hotel-preview {
@@ -459,13 +467,16 @@ body {
 .hotel-description a {
   text-decoration: none;
   font-size: 21px;
-  line-height: 26px;
+  line-height: 21px;
   color: #000000;
+
+
 }
 
 .hotel-description h1 {
   margin: 0px;
-  margin-bottom: 13px;
+  margin-bottom: 15px;
+
 }
 
 .hotel-description span {
@@ -483,6 +494,7 @@ body {
   font-size: 14px;
   line-height: 21px;
   margin-top: 15px;
+
 
 
 }
@@ -514,7 +526,6 @@ body {
   text-align: center;
   font-size: 14px;
   line-height: 21px;
-
 }
 
 .hotel-info {
