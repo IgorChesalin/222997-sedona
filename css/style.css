@@ -21,15 +21,15 @@ body {
 
 @font-face {
   font-family: 'PTSans';
-  src:  url(../fonts/ptsansbold.woff2) format(woff2),
-        url(../fonts/ptsansbold.woff) format(woff);
+  src:  url('../fonts/ptsansbold.woff2') format('woff2'),
+        url('../fonts/ptsansbold.woff') format('woff');
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'PTSans';
-  src: url(../fonts/ptsans.woff) format(woff),
-  url(../fonts/ptsans.woff2) format(woff2);
+  src: url('../fonts/ptsans.woff') format('woff'),
+  url('../fonts/ptsans.woff2') format('woff2');
   font-weight: 400;
   }
 
@@ -432,18 +432,23 @@ body {
   padding-bottom: 30px;
 }
 
+.rating-line img {
+
+
+}
+
 .hotel-preview,
 .hotel-description,
 .rating-line {
     display: inline-block;
-    font-size: 12px;
-    vertical-align: middle;
-
+    font-size: 0px;
+    vertical-align: top;
 }
 
 .hotel-preview {
   width: 220px;
   text-align: center;
+
 }
 
 .hotel-description {
@@ -453,16 +458,14 @@ body {
 
 .hotel-description a {
   text-decoration: none;
-  font-size: 14px;
-  line-height: 21px;
-  color:
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
 }
 
 .hotel-description h1 {
-    font-size: 21px;
-    line-height: 26px;
-    color: #ffffff;
-    font-weight: bold;
+  margin: 0px;
+  margin-bottom: 13px;
 }
 
 .hotel-description span {
@@ -472,18 +475,56 @@ body {
 }
 
 .hotel-info a {
+  display: block;
+  text-align: center;
   background-color: #81b3d2;
   color: #ffffff;
+  width: 110px;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 15px;
+
 
 }
 
 .hotel-book a {
+  display: block;
+  text-align: center;
   background-color: #766357;
   color: #ffffff;
+  width: 142px;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 15px;
+  margin-left: 6px;
 }
 
 
 .rating-line {
+  display: inline-block;
   width: 200px;
   text-align: right;
+  font-size: 12px;
+}
+
+.rating-line span {
+  display: inline-block;
+  width: 110px;
+  background-color: #f2f2f2;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+
+}
+
+.hotel-info {
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+}
+
+.hotel-book {
+  display: inline-block;
+  width: 142px;
+  height: 60px;
 }
