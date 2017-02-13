@@ -298,29 +298,53 @@ opacity: 0.9;
 
 .footer-social a {
   text-decoration: none;
-
-
 }
 
-.social-btn-tw {
+.social-btn {
   display: inline-block;
   width: 46px;
   height: 48px;
+  font-size: 0px;
+  vertical-align: top;
   background-color: #81b3d2;
+  position: relative;
 }
 
-.social-btn-fb {
-  display: inline-block;
-  width: 46px;
-  height: 48px;
-  background-color: #81b3d2;
+.social-btn:hover {
+  background-color: #669ec0;
 }
 
-.social-btn-yt {
-  display: inline-block;
-  width: 46px;
-  height: 48px;
-  background-color: #81b3d2;
+.social-btn:active {
+  background-color: #5496bd;
+}
+
+.social-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+}
+
+.social-btn-tw::before {
+  width: 17px;
+  height: 15px;
+  background-position: -613px -10px;
+}
+
+.social-btn-fb::before {
+  width: 10px;
+  height: 19px;
+  background-position: -583px -10px;
+
+}
+
+.social-btn-yt::before {
+  width: 20px;
+  height: 16px;
+  background-position: -650px -10px;
 }
 
 .footer-copyright {
@@ -636,6 +660,7 @@ opacity: 0.9;
 .hotel-description {
   width: 780px;
   text-align: left;
+  vertical-align: top;
 }
 
 .hotel-description a {
@@ -719,4 +744,154 @@ opacity: 0.9;
   width: 142px;
   height: 60px;
   margin-left: 6px;
+}
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-chbox-checked {
+    width: 26px;
+    height: 22px;
+    background-position: -10px -10px;
+}
+
+.sprite-chbox-checked-block {
+    width: 26px;
+    height: 22px;
+    background-position: -56px -10px;
+}
+
+.sprite-chbox-checked-focus {
+    width: 26px;
+    height: 22px;
+    background-position: -102px -10px;
+}
+
+.sprite-chbox-unchecked {
+    width: 22px;
+    height: 22px;
+    background-position: -148px -10px;
+}
+
+.sprite-chbox-unchecked-block {
+    width: 22px;
+    height: 22px;
+    background-position: -190px -10px;
+}
+
+.sprite-chbox-unchecked-focus {
+    width: 22px;
+    height: 22px;
+    background-position: -232px -10px;
+}
+
+.sprite-clnd {
+    width: 21px;
+    height: 22px;
+    background-position: -274px -10px;
+}
+
+.sprite-clnd-active {
+    width: 21px;
+    height: 22px;
+    background-position: -315px -10px;
+}
+
+.sprite-clnd-focus {
+    width: 21px;
+    height: 22px;
+    background-position: -356px -10px;
+}
+
+.sprite-filter-down {
+    width: 11px;
+    height: 10px;
+    background-position: -397px -10px;
+}
+
+.sprite-filter-down-active {
+    width: 11px;
+    height: 10px;
+    background-position: -428px -10px;
+}
+
+.sprite-filter-down-focus {
+    width: 11px;
+    height: 10px;
+    background-position: -459px -10px;
+}
+
+.sprite-filter-up {
+    width: 11px;
+    height: 10px;
+    background-position: -490px -10px;
+}
+
+.sprite-filter-up-active {
+    width: 11px;
+    height: 10px;
+    background-position: -521px -10px;
+}
+
+.sprite-filter-up-focus {
+    width: 11px;
+    height: 10px;
+    background-position: -552px -10px;
+}
+
+.sprite-icon_facebook {
+    width: 10px;
+    height: 19px;
+    background-position: -583px -10px;
+}
+
+.sprite-icon_twitter {
+    width: 17px;
+    height: 15px;
+    background-position: -613px -10px;
+}
+
+.sprite-icon_youtube {
+    width: 20px;
+    height: 16px;
+    background-position: -650px -10px;
+}
+
+.sprite-minus {
+    width: 12px;
+    height: 3px;
+    background-position: -690px -10px;
+}
+
+.sprite-minus-active {
+    width: 12px;
+    height: 3px;
+    background-position: -722px -10px;
+}
+
+.sprite-minus-focus {
+    width: 12px;
+    height: 3px;
+    background-position: -754px -10px;
+}
+
+.sprite-plus {
+    width: 11px;
+    height: 11px;
+    background-position: -786px -10px;
+}
+
+.sprite-plus-active {
+    width: 11px;
+    height: 11px;
+    background-position: -817px -10px;
+}
+
+.sprite-plus-focus {
+    width: 11px;
+    height: 11px;
+    background-position: -848px -10px;
 }
