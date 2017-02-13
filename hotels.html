@@ -32,10 +32,17 @@
       </div>
     </header>
 
-    <form class="sort-form" action="https://echo.htmlacademy.ru" method="post">
+    <form class="sort-form" action="https://echo.htmlacademy.ru" method="get">
       <div class="sort-item">
         <h2>ИНФРАСТРУКТУРА:</h2>
-        <ul>
+        <input type="checkbox" id="ch1" checked>
+        <label for="ch1">БАССЕЙН</label>
+        <input type="checkbox" id="ch2">
+        <label for="ch2">ПАРКОВКА</label>
+        <input type="checkbox" id="ch3">
+        <label for="ch3">WI-FI</label>
+
+        <!-- <ul>
           <li>
             <label><input type="checkbox" name="pool">БАССЕЙН</label>
           </li>
@@ -45,7 +52,7 @@
           <li>
             <label><input type="checkbox" name="WI-FI">WI-FI</label>
           </li>
-        </ul>
+        </ul> -->
 
       </div>
       <div class="sort-item">
@@ -209,7 +216,9 @@
     </section>
     <section class="footer-copyright">
       <span>WEBSITE BY</span>
-      <a class="btn-academy" href="https://htmlacademy.ru"><img src="img/academy.png" width="113" height="39" alt="academy"></a>
+      <a class="btn-academy" href="https://htmlacademy.ru">
+        <!-- <img src="img/academy.png" width="113" height="39" alt="academy">-->
+      </a>
     </section>
   </footer>
 
