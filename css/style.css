@@ -6,6 +6,7 @@
 .container {
   width: 1200px;
   margin: 0 auto;
+  box-shadow: 0px 5px 15px grey;
 }
 
 /*вписываем сверх 1200пх*/
@@ -17,6 +18,7 @@ img {
 body {
   font-family: PTSans, 'Arial', sans-serif;
   text-transform: uppercase;
+  background-color: #f2f2f2;
 }
 
 @font-face {
@@ -36,6 +38,10 @@ body {
 /*------------------------------------------*/
 
 /*Шапка меню*/
+
+.main-header {
+  background-color: #ffffff;
+}
 
 .main-navigation ul {
   padding-left: 0;
@@ -71,8 +77,6 @@ body {
   margin-right: 240px;
 }
 
-
-
 .logo {
   position: absolute;
   top: 0px;
@@ -105,6 +109,7 @@ body {
 .advantages {
   width: 100%;
   font-size: 0px;
+  background-color: #ffffff;
 }
 
 .advantages-item {
@@ -130,6 +135,19 @@ body {
   color: #000000;
 }
 
+.advantages-item-left p {
+  padding: 0px 70px;
+}
+
+.advantages-item-center p {
+  padding: 0px 65px;
+}
+
+.advantages-item-right p {
+  padding: 0px 60px;
+}
+
+
 /*интро текст*/
 
 .intro-text {
@@ -138,6 +156,7 @@ body {
   text-align: center;
   padding-top: 60px;
   padding-bottom: 100px;
+  background-color: #ffffff;
 }
 
 .intro-text h2 {
@@ -145,11 +164,12 @@ body {
   line-height: 26px;
   color: #000000;
   font-weight: bold;
+  padding: 0px 300px;
 }
 
 .intro-text h3 {
   font-size: 14px;
-  font-style: normal;
+  font-weight: normal;
   line-height: 26px;
   color: #333333;
 }
@@ -183,8 +203,15 @@ body {
   width: 400px;
   text-align: center;
   vertical-align: top;
-
 }
+.features-item p {
+padding: 0px 65px;
+}
+
+.features-item-right p {
+  padding: 0px 50px;
+}
+
 
 .features-blue .features-item {
   padding-top: 50px;
@@ -222,6 +249,7 @@ body {
   width: 100%;
   text-align: center;
   padding-top: 55px;
+  background-color: #ffffff;
 }
 
 .search h3 {
@@ -234,8 +262,9 @@ body {
 .search p {
   font-size: 14px;
   line-height: 24px;
-  font-weight: bold;
+  font-weight: normal;;
   color: #333333;
+  padding: 0px 402px;
 }
 
 .search a {
@@ -257,6 +286,13 @@ body {
   width: 1200px;
 }
 
+.index-footer {
+position: relative;
+margin-top: -123px;
+background-color: #f9fbf6;
+opacity: 0.9;
+}
+
 .main-footer {
   display: block;
   width: 1200px;
@@ -264,14 +300,9 @@ body {
   font-size: 0px;
   padding-top: 36px;
   padding-bottom: 36px;
+  background-color: #fefefe;
 }
 
-.index-footer {
-position: relative;
-bottom: 100px;
-background-color: white;
-opacity: 0.9;
-}
 
 .footer-hashtag,
 .footer-social,
@@ -285,12 +316,13 @@ opacity: 0.9;
 .footer-hashtag {
   font-size: 21px;
   line-height: 26px;
-  color: #000000;
   font-weight: bold;
+
 }
 
 .footer-hashtag a {
   text-decoration: none;
+  color: #000000;
 }
 
 
@@ -371,31 +403,17 @@ opacity: 0.9;
   background-image: url("../img/academy-active.png");
 }
 
-/*.footer-copyright a {
-  text-decoration: none;
-}
-
-.footer-copyright img:hover {
-  background-color: #81b3d2;
-}
-
-.footer-copyright img:active {
-  background-color: #bdbbbc;
-}*/
-
-
-
-
-
 /*---------HOTELS----------*/
-/*<img src="img/background_photo.jpg" width="1200" height="773" alt="фотография седоны 1">*/
-
-
 
 .sort-form {
-    background-image: url("../img/background_hotels.jpg");
-    padding-top: 50px;
-    padding-bottom: 50px;
+  background-image: url("../img/background_hotels.jpg");
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.sort-form h2 {
+  margin: 0px;
 }
 
 input[type="checkbox"] {
@@ -404,7 +422,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"] + label {
   display: block;
-  margin: 10px 0;
+  margin-top: 25px;
   line-height: 20px;
   padding-left: 30px;
   position: relative;
@@ -434,6 +452,13 @@ input[type="checkbox"]:checked + label::after {
   width: 26px;
   height: 22px;
   background-position: -10px -10px;
+}
+
+.sort-item label {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  font-weight: normal;
 }
 
 /*input[type="checkbox"] + label:hover {
@@ -629,6 +654,8 @@ input[type="checkbox"]:checked + label::after {
   font-size: 0px;
   padding-top: 29px;
   padding-bottom: 31px;
+  background-color: #fefefe;
+  vertical-align: top;
 }
 
 .search-results {
@@ -645,6 +672,7 @@ input[type="checkbox"]:checked + label::after {
   line-height: 26px;
   color: #000000;
   font-weight: bold;
+  vertical-align: top;
 
 }
 
@@ -652,7 +680,7 @@ input[type="checkbox"]:checked + label::after {
   width: 75px;
   display: inline-block;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: top;
   font-size: 12px;
 }
 
@@ -683,22 +711,73 @@ input[type="checkbox"]:checked + label::after {
   width: 803px;
   display: inline-block;
   text-align: left;
-  vertical-align: middle;
+  vertical-align: top;
   font-size: 12px;
 }
+
+.results-navigation-type a {
+  list-style: none;
+  text-decoration: none;
+  color: #b2b2b2;
+  border-bottom: 1px dashed #81b3d2;
+  margin-left: 30px;
+}
+
+.results-navigation-type a:hover {
+  color: #92bdd8;
+  border-bottom: 1px dashed #81b3d2;
+}
+
+.results-navigation-type a:active {
+  text-decoration: none;
+  color: #000000;
+  border-bottom: 0px;
+}
+
 
 .results-navigation-side {
   width: 107px;
   display: inline-block;
   text-align: left;
-  vertical-align: middle;
+  vertical-align: top;
   font-size: 12px;
   padding: 0px;
   }
 
-.up-down {
-  font-size: 12px;
+
+.up a,
+.down a {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  font-size: 0px;
+  vertical-align: top;
+  position: relative;
 }
+
+.up a::before,
+.down a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+}
+
+.up a::before {
+  width: 11px;
+  height: 10px;
+  background-position: -490px -10px;
+}
+
+.down a::before {
+  width: 11px;
+  height: 10px;
+  background-position: -428px -10px;
+}
+
 
 /*----- список отелей -----*/
 
@@ -707,7 +786,12 @@ input[type="checkbox"]:checked + label::after {
   font-size: 0px;
   padding-top: 30px;
   padding-bottom: 30px;
-  border-top: 1px solid #666666;
+  border-top: 1px solid #e5e5e5;
+  background-color: #fefefe;
+}
+
+.hotel-3 {
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .rating-line img {

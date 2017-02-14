@@ -11,7 +11,7 @@
 <body>
   <div class="container">
     <header class="main-header">
-      <nav class="main-navigation">
+      <nav class="main-navigation hotels-navigation">
         <ul>
           <li>
             <a href="#">информация</a>
@@ -23,7 +23,7 @@
             <a href="#">карта штата</a>
           </li>
           <li>
-            <a href="hotels.html">гостиницы</a>
+            <a href="hotels.html" style="color: #88786d">гостиницы</a>
           </li>
         </ul>
       </nav>
@@ -41,33 +41,16 @@
         <label for="ch2">ПАРКОВКА</label>
         <input type="checkbox" id="ch3">
         <label for="ch3">WI-FI</label>
-
-        <!-- <ul>
-          <li>
-            <label><input type="checkbox" name="pool">БАССЕЙН</label>
-          </li>
-          <li>
-            <label><input type="checkbox" name="parking">ПАРКОВКА</label>
-          </li>
-          <li>
-            <label><input type="checkbox" name="WI-FI">WI-FI</label>
-          </li>
-        </ul> -->
-
       </div>
+
       <div class="sort-item">
         <h2>ТИП ЖИЛЬЯ:</h2>
-        <ul>
-          <li>
-            <label><input type="checkbox" name="inn">ГОСТИНИЦА</label>
-          </li>
-          <li>
-            <label><input type="checkbox" name="hotel">ОТЕЛЬ</label>
-          </li>
-          <li>
-            <label><input type="checkbox" name="apartments">АПАРТАМЕНТЫ</label>
-          </li>
-        </ul>
+        <input type="checkbox" id="ch4" checked>
+        <label for="ch4">ГОСТИНИЦА</label>
+        <input type="checkbox" id="ch5" checked>
+        <label for="ch5">ОТЕЛЬ</label>
+        <input type="checkbox" id="ch6" checked>
+        <label for="ch6">АПАРТАМЕНТЫ</label>
       </div>
 
       <div class="filter-range">
@@ -86,16 +69,6 @@
         </div>
         <button class="btn-transparent" type="submit">Показать</button>
       </div>
-      <!-- <div class="filter-price">
-        <h2>Стоимость в сутки:</h2>
-        <input type="range" name="" value="">
-        <div class="range">
-        </div>
-        <div class="filter-move">
-          <input type="submit" name="show-price" value="Показать">
-        </div>
-
-      </div> -->
     </form>
 
 
@@ -106,7 +79,7 @@
 
       <ul class="results-navigation-type">
         <li>
-          <a href="#">ПО ЦЕНЕ</a>
+          <a href="#" style="color: #81b3d2">ПО ЦЕНЕ</a>
         </li>
         <li>
           <a href="#">ПО ТИПУ</a>
@@ -117,10 +90,10 @@
       </ul>
 
       <ul class="results-navigation-side">
-        <li class="up-down">
+        <li class="up">
           <a href="#">up</a>
         </li>
-        <li class="up-down">
+        <li class="down">
           <a href="#">down</a>
         </li>
       </ul>
@@ -181,7 +154,7 @@
       </article>
 
 
-      <article class="hotel">
+      <article class="hotel hotel-3">
         <div class="hotel-preview">
           <img src="img/hotel3.jpg" width="135" height="90" alt="Hotel preview">
         </div>
@@ -203,24 +176,24 @@
 
     </section>
 
-  </div>
+    <footer class="main-footer">
+      <section class="footer-hashtag">
+        <a href="#">#VISITSEDONA</a>
+      </section>
+      <section class="footer-social">
+        <a class="social-btn social-btn-tw" href="#">Твиттер</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-yt" href="#">Ютуб</a>
+      </section>
+      <section class="footer-copyright">
+        <span>WEBSITE BY</span>
+        <a class="btn-academy" href="https://htmlacademy.ru">
+          <!-- <img src="img/academy.png" width="113" height="39" alt="academy">-->
+        </a>
+      </section>
+    </footer>
 
-  <footer class="main-footer">
-    <section class="footer-hashtag">
-      <a href="#">#VISITSEDONA</a>
-    </section>
-    <section class="footer-social">
-      <a class="social-btn social-btn-tw" href="#">Твиттер</a>
-      <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-      <a class="social-btn social-btn-yt" href="#">Ютуб</a>
-    </section>
-    <section class="footer-copyright">
-      <span>WEBSITE BY</span>
-      <a class="btn-academy" href="https://htmlacademy.ru">
-        <!-- <img src="img/academy.png" width="113" height="39" alt="academy">-->
-      </a>
-    </section>
-  </footer>
+  </div>
 
 </body>
 
