@@ -490,7 +490,7 @@ opacity: 0.9;
 
 .sort-form {
   background-image: url("../img/background_hotels.jpg");
-  padding-top: 30px;
+  padding-top: 27px;
   padding-bottom: 30px;
   text-align: center;
 }
@@ -506,8 +506,8 @@ input[type="checkbox"] {
 input[type="checkbox"] + label {
   display: block;
   margin-top: 25px;
-  line-height: 20px;
-  padding-left: 30px;
+  line-height: 21px;
+  padding-left: 40px;
   position: relative;
   cursor: pointer;
 }
@@ -516,7 +516,7 @@ input[type="checkbox"] + label::before {
   content: "";
   display: block;
   position: absolute;
-  top: 0;
+  top: -2px;
   left: 0;
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
@@ -528,7 +528,7 @@ input[type="checkbox"] + label::before {
 input[type="checkbox"]:checked + label::after {
   content: "";
   position: absolute;
-  top: 0;
+  top: -2px;
   left: 0;
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
@@ -542,6 +542,14 @@ input[type="checkbox"]:checked + label::after {
   line-height: 21px;
   color: #ffffff;
   font-weight: normal;
+}
+
+.sort-item-right label {
+  padding-left: 43px;
+}
+
+.sort-item-left label {
+  padding-left: 43px;
 }
 
 /*input[type="checkbox"] + label:hover {
@@ -562,6 +570,7 @@ input[type="checkbox"]:checked + label::after {
   text-align: left;
   vertical-align: top;
   font-size: 12px;
+  padding-left: 31px;
 }
 
 .sort-item h2 {
@@ -569,6 +578,7 @@ input[type="checkbox"]:checked + label::after {
   line-height: 21px;
   color: #ffffff;
   font-weight: bold;
+  letter-spacing: 0.2px;
 }
 
 .sort-item li {
@@ -591,7 +601,8 @@ input[type="checkbox"]:checked + label::after {
 
 .filter-range-title {
   margin-bottom: 9px;
-
+  width: 182px;
+  margin-left: -8px;
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -600,14 +611,12 @@ input[type="checkbox"]:checked + label::after {
 .price-controls {
   box-sizing: content-box;
   position: relative;
-
-  height: 36px;
-  margin-bottom: 20px;
-
+  height: 34px;
+  margin-bottom: 19px;
   font-size: 0;
-
   border: 2px solid #ffffff;
   border-radius: 2px;
+  width: 315px;
 }
 
 .price-controls::after {
@@ -632,11 +641,11 @@ input[type="checkbox"]:checked + label::after {
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
-  padding-left: 65px;
+  padding-left: 51px;
 }
 
 .price-controls input {
-  width: 50px;
+  width: 75px;
   margin: 0;
   color: inherit;
   font: inherit;
@@ -647,6 +656,7 @@ input[type="checkbox"]:checked + label::after {
 .range-controls {
   position: relative;
   margin-bottom: 32px;
+  width: 318px;
 }
 
 .range-controls .scale {
@@ -682,7 +692,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .range-toggle-min {
-  left: 0;
+  left: 2px;
 }
 
 .range-toggle-max {
@@ -691,18 +701,18 @@ input[type="checkbox"]:checked + label::after {
 
 .btn-transparent {
   display: block;
-  margin: 0 auto;
   padding: 6px 35px;
-
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
+
+  margin-left: 86px;
+  width: 137px;
 }
 
 .btn-transparent:hover {
@@ -736,7 +746,8 @@ input[type="checkbox"]:checked + label::after {
   color: #000000;
   font-weight: bold;
   vertical-align: top;
-
+  padding-left: 45px;
+  padding-top: 2px;
 }
 
 .search-results-small {
@@ -745,6 +756,8 @@ input[type="checkbox"]:checked + label::after {
   text-align: center;
   vertical-align: top;
   font-size: 12px;
+  padding-left: 21px;
+  padding-top: 8px;
 }
 
 
@@ -776,6 +789,8 @@ input[type="checkbox"]:checked + label::after {
   text-align: left;
   vertical-align: top;
   font-size: 12px;
+  padding-top: 8px;
+  padding-left: 31px;
 }
 
 .results-navigation-type a {
@@ -801,10 +816,12 @@ input[type="checkbox"]:checked + label::after {
 .results-navigation-side {
   width: 107px;
   display: inline-block;
-  text-align: left;
+  text-align: center;
   vertical-align: top;
   font-size: 12px;
   padding: 0px;
+  padding-top: 8px;
+  padding-right: 69px;
   }
 
 
