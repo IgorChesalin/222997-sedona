@@ -363,10 +363,24 @@ opacity: 0.9;
   background-position: -613px -10px;
 }
 
+.social-btn-tw:active::before {
+  background-image: url("../img/sprite_1.png");
+  width: 17px;
+  height: 15px;
+  background-position: -439px -10px;
+}
+
 .social-btn-fb::before {
   width: 10px;
   height: 19px;
   background-position: -583px -10px;
+}
+
+.social-btn-fb:active::before {
+  background-image: url("../img/sprite_1.png");
+  width: 10px;
+  height: 19px;
+  background-position: -409px -10px;
 }
 
 .social-btn-yt::before {
@@ -375,31 +389,51 @@ opacity: 0.9;
   background-position: -650px -10px;
 }
 
+.social-btn-yt:active::before {
+  background-image: url("../img/sprite_1.png");
+  width: 20px;
+  height: 16px;
+  background-position: -476px -10px;
+}
+
+
+
 .footer-copyright {
   color: #000000;
   vertical-align: top;
+
 }
 
 .footer-copyright span {
+  display: inline-block;
   font-size: 14px;
   line-height: 26px;
-  vertical-align: top;
   color: #000000;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-right: 7px;
 }
 
 .btn-academy {
   display: inline-block;
   width: 113px;
   height: 39px;
-  background-image: url("../img/academy.png");
+  background-position: -10px -10px;
+  background-image: url("../img/sprite_1.png");
 }
 
 .btn-academy:hover {
-  background-image: url("../img/academy-focus.png");
+  width: 113px;
+  height: 39px;
+  background-position: -276px -10px;
+  background-image: url("../img/sprite_1.png");
 }
 
 .btn-academy:active {
-  background-image: url("../img/academy-active.png");
+  width: 113px;
+  height: 39px;
+  background-position: -143px -10px;
+  background-image: url("../img/sprite_1.png");
 }
 
 /*---------HOTELS----------*/
@@ -495,26 +529,11 @@ input[type="checkbox"]:checked + label::after {
 
 /*------------------------------------*/
 
-/*.filter-price {
-  display: inline-block;
-  width: 460px;
-  margin-left: 230px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 12px;
-}
-
-.filter-price h2 {
-  font-size: 16px;
-  line-height: 21px;
-  color: #ffffff;
-  font-weight: bold;
-}*/
-
 .filter-range {
   display: inline-block;
   width: 330px;
-  margin-left: 280px;
+  margin-left: 260px;
+  margin-right: 20px;
 
   color: #ffffff;
   text-transform: uppercase;
@@ -557,8 +576,6 @@ input[type="checkbox"]:checked + label::after {
 .price-controls label {
   font-size: 14px;
   line-height: 38px;
-  vertical-align: top;
-
   cursor: pointer;
 }
 
@@ -571,17 +588,14 @@ input[type="checkbox"]:checked + label::after {
 .price-controls input {
   width: 50px;
   margin: 0;
-
   color: inherit;
   font: inherit;
-
   background: none;
   border: none;
 }
 
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
 }
 
@@ -771,7 +785,32 @@ input[type="checkbox"]:checked + label::after {
   background-position: -490px -10px;
 }
 
+.up a:hover::before {
+  width: 11px;
+  height: 10px;
+  background-position: -552px -10px;
+}
+
+.up a:active::before {
+  width: 11px;
+  height: 10px;
+  background-position: -521px -10px;
+}
+
+
 .down a::before {
+  width: 11px;
+  height: 10px;
+  background-position: -428px -10px;
+}
+
+.down a:hover::before {
+  width: 11px;
+  height: 10px;
+  background-position: -459px -10px;
+}
+
+.down a:active::before {
   width: 11px;
   height: 10px;
   background-position: -428px -10px;
@@ -813,9 +852,10 @@ input[type="checkbox"]:checked + label::after {
 .star i::after {
   content: "";
   display: inline-block;
-  width: 17px;
+  background-image: url(../img/sprite_1.png);
+  width: 18px;
   height: 17px;
-  background-image: url(../img/icons/icon_star.png);
+  background-position: -516px -10px;
   /*СДЕЛАТЬ СПРАЙТ*/
 }
 
@@ -1089,4 +1129,53 @@ input[type="checkbox"]:checked + label::after {
     width: 11px;
     height: 11px;
     background-position: -848px -10px;
+}
+
+/*SPRITE-1 academy, social opacity, star*/
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-academy {
+    width: 113px;
+    height: 39px;
+    background-position: -10px -10px;
+}
+
+.sprite-academy-active {
+    width: 113px;
+    height: 39px;
+    background-position: -143px -10px;
+}
+
+.sprite-academy-focus {
+    width: 113px;
+    height: 39px;
+    background-position: -276px -10px;
+}
+
+.sprite-icon_facebook_opacity {
+    width: 10px;
+    height: 19px;
+    background-position: -409px -10px;
+}
+
+.sprite-icon_twitter_opacity {
+    width: 17px;
+    height: 15px;
+    background-position: -439px -10px;
+}
+
+.sprite-icon_youtube_opacity {
+    width: 20px;
+    height: 16px;
+    background-position: -476px -10px;
+}
+
+.sprite-star {
+    width: 18px;
+    height: 17px;
+    background-position: -516px -10px;
 }
