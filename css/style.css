@@ -45,8 +45,8 @@ body {
 
 .main-navigation ul {
   padding-left: 0;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 0px;
 }
 
@@ -110,19 +110,31 @@ body {
   width: 100%;
   font-size: 0px;
   background-color: #ffffff;
+  padding-top: 55px;
+  padding-bottom: 81px;
 }
+
+.advantages-item-left img {
+  padding-top: 5px;
+}
+
+.advantages-item-center img {
+  padding-top: 5px;
+}
+
 
 .advantages-item {
   display: inline-block;
   width: 400px;
   text-align: center;
   font-size: 12px;
-  padding-top: 60px;
-  padding-bottom: 85px;
+
   vertical-align: middle;
 }
 
 .advantages-item h2 {
+  padding-top: 27px;
+  margin: 0px;
   font-size: 21px;
   line-height: 21px;
   font-weight: bold;
@@ -137,14 +149,22 @@ body {
 
 .advantages-item-left p {
   padding: 0px 70px;
+  margin: 0px;
+  padding-top: 25px;
 }
 
 .advantages-item-center p {
-  padding: 0px 65px;
+  display: block;
+  margin: 0px;
+  padding: 0px 58px;
+  padding-top: 24px;
 }
+
 
 .advantages-item-right p {
   padding: 0px 60px;
+  margin: 0px;
+  padding-top: 24px;
 }
 
 
@@ -154,8 +174,8 @@ body {
   width: 100%;
   display: inline-block;
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 100px;
+  padding-top: 43px;
+  padding-bottom: 37px;
   background-color: #ffffff;
 }
 
@@ -172,6 +192,7 @@ body {
   font-weight: normal;
   line-height: 26px;
   color: #333333;
+  padding-top: 9px;
 }
 
 
@@ -188,8 +209,8 @@ body {
 .features-grey {
   background-color: #eeeeee;
   vertical-align: middle;
-  padding-top: 50px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 58px;
 }
 
 .features-image {
@@ -205,13 +226,23 @@ body {
   vertical-align: top;
 }
 .features-item p {
-padding: 0px 65px;
+padding: 0px 62px;
 }
 
 .features-item-right p {
-  padding: 0px 50px;
+  padding: 0px 48px;
 }
 
+
+.features-blue p {
+  display: block;
+  margin-top: 21px;
+}
+
+.features-blue span {
+  display: block;
+  margin-top: 24px;
+}
 
 .features-blue .features-item {
   padding-top: 50px;
@@ -222,6 +253,9 @@ padding: 0px 65px;
   line-height: 21px;
   font-weight: bold;
   color: #ffffff;
+  padding: 0px 95px;
+  margin: 0px;
+  padding-top: 4px;
 }
 
 .features-blue span,
@@ -235,20 +269,26 @@ padding: 0px 65px;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
+  padding: 0px 120px;
+  padding-top: 17px;
+  margin: 0px;
 }
 
 .features-grey span,
 .features-grey p {
+  display: block;
   font-size: 14px;
   line-height: 21px;
   color: #000000;
+  padding-top: 23px;
+  margin: 0px;
 }
 
 
 .search {
   width: 100%;
   text-align: center;
-  padding-top: 55px;
+  padding-top: 58px;
   background-color: #ffffff;
 }
 
@@ -256,29 +296,34 @@ padding: 0px 65px;
   font-size: 30px;
   line-height: 20px;
   font-weight: bold;
-  color: #000000
+  color: #000000;
+  margin: 0px;
 }
 
 .search p {
+  display: block;
   font-size: 14px;
   line-height: 24px;
   font-weight: normal;;
   color: #333333;
+  margin: 0px;
+  padding-top: 32px;
 }
 
 .search a {
   display: inline-block;
   margin: 0px;
   width: 568px;
-  padding: 35px 0px;
-
+  padding: 30px 0px;
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
   background-color: #766357;
+  margin-top: 47px;
 }
+
 
 .map {
   display: block;
@@ -316,7 +361,7 @@ opacity: 0.9;
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
-
+  padding-top: 10px;
 }
 
 .footer-hashtag a {
@@ -327,6 +372,11 @@ opacity: 0.9;
 
 .footer-social a {
   text-decoration: none;
+}
+
+.social-btn-fb {
+  margin-left: 2px;
+  margin-right: 4px;
 }
 
 .social-btn {
@@ -401,7 +451,7 @@ opacity: 0.9;
 .footer-copyright {
   color: #000000;
   vertical-align: top;
-
+  padding-top: 5px;
 }
 
 .footer-copyright span {
@@ -411,7 +461,7 @@ opacity: 0.9;
   color: #000000;
   vertical-align: top;
   margin-top: 5px;
-  margin-right: 7px;
+  margin-right: 5px;
 }
 
 .btn-academy {
