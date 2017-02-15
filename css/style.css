@@ -264,7 +264,6 @@ padding: 0px 65px;
   line-height: 24px;
   font-weight: normal;;
   color: #333333;
-  padding: 0px 402px;
 }
 
 .search a {
@@ -802,7 +801,24 @@ input[type="checkbox"]:checked + label::after {
 .rating-line span {
   display: inline-block;
   margin-top: 50px;
+  margin-right: 74px;
 }
+
+.star {
+  /*background: grey;*/
+  margin-right: 74px;
+
+}
+
+.star i::after {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-image: url(../img/icons/icon_star.png);
+  /*СДЕЛАТЬ СПРАЙТ*/
+}
+
 
 .hotel-preview,
 .hotel-description,
