@@ -813,10 +813,10 @@ input[type="checkbox"]:checked + label::after {
   border-bottom: 0px;
 }
 
-.active-link {
+.active-link a {
   text-decoration: none;
   color:  #81b3d2;
-  border-bottom: 2px dashed #81b3d2;
+  border-bottom: 0px;
 }
 
 .results-navigation-side {
