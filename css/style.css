@@ -328,6 +328,7 @@ padding: 0px 62px;
 .map {
   display: block;
   width: 1200px;
+  background-image: url("../img/map.jpg");
 }
 
 .index-footer {
@@ -777,7 +778,6 @@ input[type="checkbox"]:checked + label::after {
 }
 .results-navigation li {
   display: inline-block;
-  width:
   font-size: 12px;
   line-height: 18px;
   color: #81b3d2;
@@ -801,6 +801,7 @@ input[type="checkbox"]:checked + label::after {
   margin-left: 30px;
 }
 
+
 .results-navigation-type a:hover {
   color: #92bdd8;
   border-bottom: 1px dashed #81b3d2;
@@ -812,6 +813,11 @@ input[type="checkbox"]:checked + label::after {
   border-bottom: 0px;
 }
 
+.active-link {
+  text-decoration: none;
+  color:  #81b3d2;
+  border-bottom: 2px dashed #81b3d2;
+}
 
 .results-navigation-side {
   width: 107px;
@@ -822,7 +828,7 @@ input[type="checkbox"]:checked + label::after {
   padding: 0px;
   padding-top: 8px;
   padding-right: 69px;
-  }
+}
 
 
 .up a,
@@ -884,12 +890,13 @@ input[type="checkbox"]:checked + label::after {
 }
 
 
+
 /*----- список отелей -----*/
 
 .hotel {
   width: 100%;
   font-size: 0px;
-  padding-top: 30px;
+  padding-top: 23px;
   padding-bottom: 30px;
   border-top: 1px solid #e5e5e5;
   background-color: #fefefe;
@@ -938,6 +945,8 @@ input[type="checkbox"]:checked + label::after {
 .hotel-preview {
   width: 220px;
   text-align: center;
+  padding-left: 60px;
+  padding-top: 7px;
 
 }
 
@@ -964,8 +973,9 @@ input[type="checkbox"]:checked + label::after {
 
 
 .hotel-description h1 {
-  margin: 0px;
-  margin-bottom: 15px;
+  /*margin: 0px;
+  margin-bottom: 15px;*/
+  padding-left: 17px;
 
 }
 
@@ -1039,13 +1049,15 @@ input[type="checkbox"]:checked + label::after {
   display: inline-block;
   width: 110px;
   height: 60px;
+  padding-left: 17px;
+  padding-top: 15px;
 }
 
 .hotel-book {
   display: inline-block;
   width: 142px;
   height: 60px;
-  margin-left: 6px;
+  margin-left: 23px;
 }
 
 .sprite {
