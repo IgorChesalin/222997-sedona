@@ -103,8 +103,6 @@ body {
   top: 96px;
 }
 
-
-
 /* ЖИЛЬЕ ЕДА СУВЕНИРЫ*/
 .advantages {
   width: 100%;
@@ -128,7 +126,6 @@ body {
   width: 400px;
   text-align: center;
   font-size: 12px;
-
   vertical-align: middle;
 }
 
@@ -160,13 +157,11 @@ body {
   padding-top: 24px;
 }
 
-
 .advantages-item-right p {
   padding: 0px 60px;
   margin: 0px;
   padding-top: 24px;
 }
-
 
 /*интро текст*/
 
@@ -194,7 +189,6 @@ body {
   color: #333333;
   padding-top: 9px;
 }
-
 
 /*МОСТ ДЬЯВОЛА */
 .features {
@@ -232,7 +226,6 @@ padding: 0px 62px;
 .features-item-right p {
   padding: 0px 48px;
 }
-
 
 .features-blue p {
   display: block;
@@ -284,7 +277,6 @@ padding: 0px 62px;
   margin: 0px;
 }
 
-
 .search {
   width: 100%;
   text-align: center;
@@ -324,11 +316,9 @@ padding: 0px 62px;
   margin-top: 47px;
 }
 
-
 .map {
   display: block;
   width: 1200px;
-  background-image: url("../img/map.jpg");
 }
 
 .index-footer {
@@ -348,10 +338,9 @@ opacity: 0.9;
   background-color: #fefefe;
 }
 
-
 .footer-hashtag,
 .footer-social,
-.footer-copyright  {
+.footer-copyright {
   width: 400px;
   display: inline-block;
   vertical-align: top;
@@ -369,7 +358,6 @@ opacity: 0.9;
   text-decoration: none;
   color: #000000;
 }
-
 
 .footer-social a {
   text-decoration: none;
@@ -447,8 +435,6 @@ opacity: 0.9;
   background-position: -476px -10px;
 }
 
-
-
 .footer-copyright {
   color: #000000;
   vertical-align: top;
@@ -494,10 +480,15 @@ opacity: 0.9;
   padding-top: 27px;
   padding-bottom: 30px;
   text-align: center;
+  background-position: 0px -55px;
 }
 
 .sort-form h2 {
   margin: 0px;
+}
+
+.ch4 {
+  padding-left: 43px;
 }
 
 input[type="checkbox"] {
@@ -526,7 +517,7 @@ input[type="checkbox"] + label::before {
   background-position: -148px -10px;
 }
 
-input[type="checkbox"]:checked + label::after {
+input[type="checkbox"]:checked + label::before {
   content: "";
   position: absolute;
   top: -2px;
@@ -544,26 +535,6 @@ input[type="checkbox"]:checked + label::after {
   color: #ffffff;
   font-weight: normal;
 }
-
-.sort-item-right label {
-  padding-left: 43px;
-}
-
-.sort-item-left label {
-  padding-left: 43px;
-}
-
-/*input[type="checkbox"] + label:hover {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url("../img/sprite.png");
-  background-repeat: no-repeat;
-  width: 26px;
-  height: 22px;
-  background-position: -102px -10px;
-}*/
 
 .sort-item {
   display: inline-block;
@@ -595,7 +566,6 @@ input[type="checkbox"]:checked + label::after {
   width: 330px;
   margin-left: 260px;
   margin-right: 20px;
-
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -625,10 +595,8 @@ input[type="checkbox"]:checked + label::after {
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 2px;
   height: 22px;
-
   background: #ffffff;
   transform: translate(-50%, -50%);
 }
@@ -662,14 +630,12 @@ input[type="checkbox"]:checked + label::after {
 
 .range-controls .scale {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 
@@ -677,10 +643,8 @@ input[type="checkbox"]:checked + label::after {
   box-sizing: content-box;
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
@@ -711,14 +675,12 @@ input[type="checkbox"]:checked + label::after {
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
-
   margin-left: 86px;
   width: 137px;
 }
 
 .btn-transparent:hover {
   color: #000000;
-
   background: #ffffff;
 }
 
@@ -801,7 +763,6 @@ input[type="checkbox"]:checked + label::after {
   margin-left: 30px;
 }
 
-
 .results-navigation-type a:hover {
   color: #92bdd8;
   border-bottom: 1px dashed #81b3d2;
@@ -813,11 +774,6 @@ input[type="checkbox"]:checked + label::after {
   border-bottom: 0px;
 }
 
-.active-link a {
-  text-decoration: none;
-  color:  #81b3d2;
-  border-bottom: 0px;
-}
 
 .results-navigation-side {
   width: 107px;
@@ -830,6 +786,11 @@ input[type="checkbox"]:checked + label::after {
   padding-right: 69px;
 }
 
+.active-link a {
+  text-decoration: none;
+  color:  #81b3d2;
+  border-bottom: 0px;
+}
 
 .up a,
 .down a {
@@ -870,33 +831,20 @@ input[type="checkbox"]:checked + label::after {
   background-position: -521px -10px;
 }
 
-
-.down a::before {
+/*.down a::before,
+.down a:hover::before,
+ .down a:active::before {
   width: 11px;
   height: 10px;
   background-position: -428px -10px;
-}
-
-.down a:hover::before {
-  width: 11px;
-  height: 10px;
-  background-position: -459px -10px;
-}
-
-.down a:active::before {
-  width: 11px;
-  height: 10px;
-  background-position: -428px -10px;
-}
-
-
+}*/
 
 /*----- список отелей -----*/
 
 .hotel {
   width: 100%;
   font-size: 0px;
-  padding-top: 23px;
+  padding-top: 30px;
   padding-bottom: 30px;
   border-top: 1px solid #e5e5e5;
   background-color: #fefefe;
@@ -918,9 +866,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .star {
-  /*background: grey;*/
   margin-right: 74px;
-
 }
 
 .star i::after {
@@ -930,7 +876,6 @@ input[type="checkbox"]:checked + label::after {
   width: 18px;
   height: 17px;
   background-position: -516px -10px;
-  /*СДЕЛАТЬ СПРАЙТ*/
 }
 
 
@@ -939,15 +884,11 @@ input[type="checkbox"]:checked + label::after {
 .rating-line {
     display: inline-block;
     font-size: 0px;
-/*    vertical-align: top;*/
 }
 
 .hotel-preview {
   width: 220px;
   text-align: center;
-  padding-left: 60px;
-  padding-top: 7px;
-
 }
 
 .hotel-description {
@@ -973,10 +914,8 @@ input[type="checkbox"]:checked + label::after {
 
 
 .hotel-description h1 {
-  /*margin: 0px;
-  margin-bottom: 15px;*/
-  padding-left: 17px;
-
+  margin: 0px;
+  margin-bottom: 15px;
 }
 
 .hotel-description span {
@@ -1049,15 +988,13 @@ input[type="checkbox"]:checked + label::after {
   display: inline-block;
   width: 110px;
   height: 60px;
-  padding-left: 17px;
-  padding-top: 15px;
 }
 
 .hotel-book {
   display: inline-block;
   width: 142px;
   height: 60px;
-  margin-left: 23px;
+  margin-left: 6px;
 }
 
 .sprite {
