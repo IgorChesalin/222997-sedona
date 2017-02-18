@@ -335,6 +335,7 @@ padding: 0px 62px;
 /*------------------------------------------------POPUP*/
 
 .form {
+  position: absolute;
   display: block;
   width: 568px;
   background-color: #ffffff;
@@ -345,9 +346,10 @@ padding: 0px 62px;
 .from {
   display: block;
   width: 458px;
-  margin: 0 auto;
-  text-align: center;
+  margin-left: 55px;
+  text-align: left;
   padding-top: 55px;
+  position: relative;
 }
 
 .from input {
@@ -357,46 +359,274 @@ padding: 0px 62px;
   font-weight: bold;
   display: inline-block;
   padding: 11px;
+  margin-left: 22px;
+  width: 344px;
+}
+
+.from input:hover {
+  background: #ebebeb;
+}
+
+.from input:focus {
+  background: #ffffff;
+}
+
+.from a::before {
+  content: "";
+  position: absolute;
+  top: 74px;
+  left: 439px;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 22px;
+  background-position: -274px -10px;
 }
 
 .to {
   display: block;
   width: 458px;
-  margin: 0 auto;
-  text-align: center;
+  margin-left: 55px;
+  text-align: left;
   padding-top: 28px;
+  position: relative;
 }
 
+.to input {
+  background-color: #f2f2f2;
+  border: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 11px;
+  margin-left: 19px;
+  width: 343px;
+}
+
+.to input:hover {
+  background: #ebebeb;
+}
+
+.to input:focus {
+  background: #ffffff;
+}
+
+.to a::before {
+  content: "";
+  position: absolute;
+  top: 48px;
+  left: 438px;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 22px;
+  background-position: -274px -10px;
+}
+
+.to a:hover::before,
+.from a:hover::before {
+  width: 21px;
+  height: 22px;
+  background-position: -356px -10px;
+}
+
+.to a:active::before,
+.from a:active::before {
+  width: 21px;
+  height: 22px;
+  background-position: -315px -10px;
+}
+
+
+
 .guests {
-  display: block;
-  padding-left: 55px;
+  display: flex;
+  margin-left: 55px;
   padding-top: 30px;
+  font-size: 0px;
+  width: 458px;
 }
 
 .guest-adults {
   display: inline-block;
-  width: 226px;
-  background-color: gainsboro;
+  width: 228px;
+  font-size: 0px;
+  position: relative;
+}
+
+.guest-adults label {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.minus-adults {
+  border: 0px;
+  background-color: #f2f2f2;
+  display: inline-block;
+  width: 38px;
+  font-size: 0px;
+  height: 38px;
+  margin-left: 42px;
+  padding: 0px;
+}
+
+.guest-adults a::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 132px;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 3px;
+  background-position: -690px -10px;
+}
+
+.guest-adults a::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 206px;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 11px;
+  background-position: -786px -10px;
+}
+
+.minus-children {
+  border: 0px;
+  background-color: #f2f2f2;
+  display: inline-block;
+  width: 38px;
+  font-size: 0px;
+  height: 38px;
+  margin-left: 24px;
+}
+
+.plus-adults {
+  border: 0px;
+  background-color: #f2f2f2;
+  display: inline-block;
+  width: 38px;
+  font-size: 0px;
+  height: 38px;
 }
 
 .input-adults {
   display: inline-block;
-  width: 50px;
-  background-color: #cacaca;
+  width: 38px;
+  background-color: #f2f2f2;
+  border: 0px;
   text-align: center;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+  padding: 11px 0px;
+  padding-left: 15px;
+  vertical-align: top;
 }
 
 .guest-children {
   display: inline-block;
-  background-color: gainsboro;
-  margin-left: 53px;
+  margin-left: 51px;
+  width: 179px;
+  font-size: 0px;
+  position: relative;
+}
+
+.minus-btn::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 86px;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 3px;
+  background-position: -690px -10px;
+}
+
+.minus-btn:hover::before {
+  width: 12px;
+  height: 3px;
+  background-position: -754px -10px;
+  }
+
+.minus-btn:active::before {
+  width: 12px;
+  height: 3px;
+  background-position: -722px -10px;
+  }
+
+.plus-btn::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 158px;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 11px;
+  background-position: -786px -10px;
+}
+
+.plus-btn:hover::before {
+  width: 11px;
+  height: 11px;
+  background-position: -848px -10px;
+  }
+
+/*.plus-btn:active::before {
+  width: 12px;
+  height: 3px;
+  background-position: -848px -10px;
+  }*/
+
+.guest-children label {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: middle;
 }
 
 .input-children {
   display: inline-block;
   width: 50px;
-  background-color: #cacaca;
+  background-color: #f2f2f2;
+  border: 0px;
   text-align: center;
+}
+
+.input-children {
+  display: inline-block;
+  width: 38px;
+  background-color: #f2f2f2;
+  border: 0px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+  padding: 11px 0px;
+  padding-left: 15px;
+  vertical-align: top;
+}
+
+.plus-children {
+  border: 0px;
+  background-color: #f2f2f2;
+  display: inline-block;
+  width: 38px;
+  font-size: 0px;
+  height: 38px;
 }
 
 .search-btn-popup {
@@ -405,9 +635,17 @@ padding: 0px 62px;
   background-color: #81b3d2;
   margin-left: 55px;
   margin-right: 55px;
-  margin-top: 39px;
+  margin-top: 56px;
   text-align: center;
+  margin-bottom: 54px;
+}
 
+.search-btn-popup:hover {
+  background-color: #669ec0;
+}
+
+.search-btn-popup:active {
+  background-color: #5496bd;
 }
 
 .search-btn-popup a {
