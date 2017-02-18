@@ -111,11 +111,45 @@
       <h3>ЗАИНТЕРЕСОВАЛИСЬ?</h3>
       <p>укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
       <div class="search-btn">
-        <a href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+        <a href="form.html">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
       </div>
     </section>
 
     <section class="map">
+      <div class="form">
+        <div class="from">
+          <label for="">ДАТА ЗАЕЗДА:</label>
+          <input type="text" name="check-in" value="24 АПРЕЛЯ 2016">
+          <a href="#" class="calendar"><span>#</span></a>
+        </div>
+
+        <div class="to">
+          <label for="">ДАТА ВЫЕЗДА:</label>
+          <input type="text" name="check-out" value="4 ИЮЛЯ 2016">
+          <a href="#" class="calendar"><span>#</span></a>
+        </div>
+
+        <div class="guests">
+          <div class="guest-adults">
+            <label for="">ВЗРОСЛЫЕ:</label>
+            <input type="button" name="minus" value="-">
+            <input type="number" name="adults" value="2" class="input-adults">
+            <input type="button" name="plus" value="+">
+          </div>
+
+          <div class="guest-children">
+            <label for="">ДЕТИ:</label>
+            <input type="button" name="minus" value="-">
+            <input type="number" name="children" value="0" class="input-children">
+            <input type="button" name="plus" value="+">
+          </div>
+        </div>
+
+        <div class="search-btn-popup">
+          <a href="#">НАЙТИ</a>
+        </div>
+
+      </div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104770.38018730543!2d-111.86517855273749!3d34.85435832354931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1487014991630"
           width="1200" height="593" frameborder="0" style="border:0" allowfullscreen>
         </iframe>
