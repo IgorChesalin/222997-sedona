@@ -443,7 +443,7 @@ padding: 0px 62px;
 }
 
 
-
+/*-------------------СТРОКА ГОСТИ*/
 .guests {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -473,11 +473,26 @@ padding: 0px 62px;
   background-color: #f2f2f2;
   display: inline-block;
   width: 38px;
-  font-size: 0px;
   height: 38px;
   margin-left: 42px;
   padding: 0px;
+  font-size: 0px;
+  position: relative;
 }
+
+.minus-adults::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  width: 10px;
+  height: 10px;
+  background: #ff0000;
+}
+
+
+
+
 
 .guest-adults a::before {
   content: "";
