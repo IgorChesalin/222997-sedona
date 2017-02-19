@@ -336,6 +336,10 @@ padding: 0px 62px;
   background-image: url("../img/map.jpg");
 }
 
+.iframe {
+  border: none;
+}
+
 /*------------------------------------------------POPUP*/
 
 .form {
