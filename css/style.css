@@ -181,7 +181,7 @@ body {
   display: inline-block;
   text-align: center;
   padding-top: 43px;
-  padding-bottom: 37px;
+  padding-bottom: 39px;
   background-color: #ffffff;
 }
 
@@ -291,7 +291,7 @@ padding: 0px 62px;
 .search {
   width: 100%;
   text-align: center;
-  padding-top: 58px;
+  padding-top: 60px;
   background-color: #ffffff;
 }
 
@@ -324,7 +324,7 @@ padding: 0px 62px;
   text-decoration: none;
   color: #ffffff;
   background-color: #766357;
-  margin-top: 47px;
+  margin-top: 46px;
 }
 
 .map {
@@ -644,7 +644,7 @@ padding: 0px 62px;
   background-color: #81b3d2;
   margin-left: 55px;
   margin-right: 55px;
-  margin-top: 56px;
+  margin-top: 52px;
   text-align: center;
   margin-bottom: 54px;
 }
@@ -665,7 +665,7 @@ padding: 0px 62px;
   text-decoration: none;
   padding-top: 15px;
   display: block;
-  padding-bottom: 17px;
+  padding-bottom: 18px;
 }
 
 
@@ -675,9 +675,11 @@ padding: 0px 62px;
 /*---------------------------------FOOTER*/
 .index-footer {
 position: relative;
-margin-top: -123px;
+margin-top: -124px;
 background-color: #f9fbf6;
 opacity: 0.9;
+padding-top: 35px;
+padding-bottom: 36px;
 }
 
 .main-footer {
@@ -685,7 +687,7 @@ opacity: 0.9;
   width: 1200px;
   text-align: center;
   font-size: 0px;
-  padding-top: 36px;
+  padding-top: 35px;
   padding-bottom: 36px;
   background-color: #fefefe;
 }
@@ -832,7 +834,7 @@ opacity: 0.9;
   background-image: url("../img/background_hotels.jpg");
   background-color: #739dc3;
   padding-top: 27px;
-  padding-bottom: 30px;
+  padding-bottom: 31px;
   text-align: center;
   background-position: 0px -55px;
 }
@@ -938,7 +940,7 @@ input[type="checkbox"]:disabled + label::before {
 }
 
 .filter-range-title {
-  margin-bottom: 9px;
+  margin-bottom: 10px;
   width: 182px;
   margin-left: -8px;
   font-weight: 600;
@@ -971,18 +973,18 @@ input[type="checkbox"]:disabled + label::before {
 
 .price-controls label {
   font-size: 14px;
-  line-height: 38px;
+  line-height: 33px;
   cursor: pointer;
 }
 
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
-  padding-left: 51px;
+  padding-left: 56px;
 }
 
 .price-controls input {
-  width: 75px;
+  width: 70px;
   margin: 0;
   color: inherit;
   font: inherit;
@@ -992,7 +994,7 @@ input[type="checkbox"]:disabled + label::before {
 
 .range-controls {
   position: relative;
-  margin-bottom: 32px;
+  margin-bottom: 33px;
   width: 318px;
 }
 
@@ -1025,7 +1027,7 @@ input[type="checkbox"]:disabled + label::before {
 }
 
 .range-toggle-min {
-  left: 2px;
+  left: 0px;
 }
 
 .range-toggle-max {
@@ -1056,7 +1058,7 @@ input[type="checkbox"]:disabled + label::before {
 
 .results-navigation {
   font-size: 0px;
-  padding-top: 29px;
+  padding-top: 28px;
   padding-bottom: 31px;
   background-color: #fefefe;
   vertical-align: top;
@@ -1214,8 +1216,8 @@ input[type="checkbox"]:disabled + label::before {
 .hotel {
   width: 1200px;
   font-size: 0px;
-  padding-top: 25px;
-  padding-bottom: 28px;
+  padding-top: 24px;
+  padding-bottom: 31px;
   border-top: 1px solid #e5e5e5;
   background-color: #fefefe;
   display: -webkit-box;
