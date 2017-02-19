@@ -58,6 +58,7 @@ body {
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
+  vertical-align: top;
 }
 
 
@@ -183,6 +184,7 @@ body {
   padding-top: 43px;
   padding-bottom: 39px;
   background-color: #ffffff;
+  vertical-align: top;
 }
 
 .intro-text h2 {
@@ -315,6 +317,7 @@ padding: 0px 62px;
 
 .search a {
   display: inline-block;
+  vertical-align: top;
   margin: 0px;
   width: 568px;
   padding: 30px 0px;
@@ -362,6 +365,7 @@ padding: 0px 62px;
   padding: 11px;
   margin-left: 22px;
   width: 344px;
+  vertical-align: middle;
 }
 
 .from input:hover {
@@ -401,6 +405,7 @@ padding: 0px 62px;
   font-size: 14px;
   font-weight: bold;
   display: inline-block;
+  vertical-align: middle;
   padding: 11px;
   margin-left: 19px;
   width: 343px;
@@ -446,6 +451,7 @@ padding: 0px 62px;
 /*-------------------СТРОКА ГОСТИ*/
 .guests {
   display: inline-block;
+  vertical-align: middle;
   margin-left: 55px;
   padding-top: 30px;
   font-size: 0px;
@@ -568,6 +574,7 @@ padding: 0px 62px;
 
 .guest-children {
   display: inline-block;
+  vertical-align: middle;
   margin-left: 52px;
   font-size: 0px;
   position: relative;
@@ -582,6 +589,7 @@ padding: 0px 62px;
 
 .input-children {
   display: inline-block;
+  vertical-align: middle;
   width: 50px;
   background-color: #f2f2f2;
   border: 0px;
@@ -599,13 +607,14 @@ padding: 0px 62px;
   font-weight: bold;
   padding: 11px 0px;
   padding-left: 15px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .plus-children {
   border: 0px;
   background-color: #f2f2f2;
   display: inline-block;
+  vertical-align: middle;
   width: 38px;
   font-size: 0px;
   height: 38px;
@@ -781,6 +790,7 @@ padding-bottom: 36px;
 
 .btn-academy {
   display: inline-block;
+  vertical-align: top;
   width: 113px;
   height: 39px;
   background-position: -10px -10px;
@@ -905,6 +915,7 @@ input[type="checkbox"]:disabled + label::before {
 
 .filter-range {
   display: inline-block;
+  vertical-align: middle;
   width: 330px;
   margin-left: 260px;
   margin-right: 20px;
@@ -1083,6 +1094,7 @@ input[type="checkbox"]:disabled + label::before {
 }
 .results-navigation li {
   display: inline-block;
+  vertical-align: middle;
   font-size: 12px;
   line-height: 18px;
   color: #81b3d2;
@@ -1204,12 +1216,14 @@ input[type="checkbox"]:disabled + label::before {
 
 .rating-line img {
   display: inline-block;
+  vertical-align: middle;
   margin-left: 3px;
 }
 
 .star i::after {
   content: "";
   display: inline-block;
+  vertical-align: middle;
   background-image: url(../img/sprite_1.png);
   width: 18px;
   height: 17px;
@@ -1220,6 +1234,7 @@ input[type="checkbox"]:disabled + label::before {
 .hotel-description,
 .rating-line {
     display: inline-block;
+    vertical-align: top;
     font-size: 0px;
 }
 
@@ -1316,6 +1331,7 @@ input[type="checkbox"]:disabled + label::before {
 
 .rating-line {
   display: inline-block;
+  vertical-align: top;
   width: 200px;
   text-align: right;
   font-size: 12px;
@@ -1325,6 +1341,7 @@ input[type="checkbox"]:disabled + label::before {
 
 .rating-line span {
   display: inline-block;
+  vertical-align: top;
   width: 110px;
   background-color: #f2f2f2;
   text-align: center;
@@ -1336,14 +1353,17 @@ input[type="checkbox"]:disabled + label::before {
 
 .hotel-info {
   display: inline-block;
+  vertical-align: top;
   width: 110px;
   padding-top: 7px;
 }
 
 .hotel-book {
   display: inline-block;
+  vertical-align: top;
   width: 142px;
   margin-left: 6px;
+  padding-top: 7px;
 }
 
 .sprite {
