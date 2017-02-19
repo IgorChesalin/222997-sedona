@@ -445,9 +445,7 @@ padding: 0px 62px;
 
 /*-------------------СТРОКА ГОСТИ*/
 .guests {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
   margin-left: 55px;
   padding-top: 30px;
   font-size: 0px;
@@ -456,16 +454,19 @@ padding: 0px 62px;
 
 .guest-adults {
   display: inline-block;
-  width: 228px;
+  vertical-align: middle;
+  /*width: 226px;*/
   font-size: 0px;
 
 }
 
 .guest-adults label {
   display: inline-block;
+  vertical-align: middle;
   font-size: 14px;
   font-weight: bold;
-  vertical-align: middle;
+  margin-right: 41px;
+
 }
 
 /*--------------------------КНОПКА МИНУС*/
@@ -473,9 +474,10 @@ padding: 0px 62px;
   border: 0px;
   background-color: #f2f2f2;
   display: inline-block;
+  vertical-align: middle;
   width: 38px;
   height: 38px;
-  margin-left: 42px;
+  /*margin-left: 41px;*/
   padding: 0px;
   font-size: 0px;
   position: relative;
@@ -507,6 +509,10 @@ padding: 0px 62px;
   background-position: -722px -10px;
 }
 
+.minus-btn-right {
+  margin-left: 27px;
+}
+
 
 /*--------------------------КНОПКА ПЛЮС*/
 .plus-btn {
@@ -517,13 +523,14 @@ padding: 0px 62px;
   font-size: 0px;
   height: 38px;
   position: relative;
+  vertical-align: middle;
 }
 
 .plus-btn::before {
   content: "";
   position: absolute;
   top: 20px;
-  left: 15px;
+  left: 19px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background-image: url("../img/sprite.png");
@@ -556,16 +563,14 @@ padding: 0px 62px;
   font-weight: bold;
   padding: 11px 0px;
   padding-left: 15px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .guest-children {
   display: inline-block;
-  margin-left: 51px;
-  width: 179px;
+  margin-left: 52px;
   font-size: 0px;
   position: relative;
-  display: flex;
 }
 
 .guest-children label {
