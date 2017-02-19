@@ -90,7 +90,8 @@ body {
   position: absolute;
   top: 0px;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .intro-image {
@@ -376,7 +377,8 @@ padding: 0px 62px;
   position: absolute;
   top: 74px;
   left: 439px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
   width: 21px;
@@ -417,7 +419,8 @@ padding: 0px 62px;
   position: absolute;
   top: 48px;
   left: 438px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
   width: 21px;
@@ -442,6 +445,8 @@ padding: 0px 62px;
 
 
 .guests {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 55px;
   padding-top: 30px;
@@ -479,7 +484,8 @@ padding: 0px 62px;
   position: absolute;
   top: 20px;
   left: 132px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
   width: 12px;
@@ -492,7 +498,8 @@ padding: 0px 62px;
   position: absolute;
   top: 20px;
   left: 206px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
   width: 11px;
@@ -546,7 +553,8 @@ padding: 0px 62px;
   position: absolute;
   top: 20px;
   left: 86px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
   width: 12px;
@@ -571,7 +579,8 @@ padding: 0px 62px;
   position: absolute;
   top: 20px;
   left: 158px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
   width: 11px;
@@ -734,7 +743,8 @@ opacity: 0.9;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
 }
@@ -955,7 +965,8 @@ input[type="checkbox"]:disabled + label::before {
   width: 2px;
   height: 22px;
   background: #ffffff;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .price-controls label {
@@ -1165,7 +1176,8 @@ input[type="checkbox"]:disabled + label::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
 }
@@ -1206,6 +1218,8 @@ input[type="checkbox"]:disabled + label::before {
   padding-bottom: 28px;
   border-top: 1px solid #e5e5e5;
   background-color: #fefefe;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
